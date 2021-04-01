@@ -9,6 +9,10 @@ app.get('/pets', (req, res) => {
     return res.send(petshop.listarPets())
 })
 
+app.get('/pets/:nome', (req, res) => {
+    return res.json(petshop.buscarPet(req.params.nome))
+})
+
 app.post('/pets', (req, res) => {
     return res.json(petshop.novoCliente(req.body))
 })

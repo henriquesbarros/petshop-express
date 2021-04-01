@@ -91,7 +91,7 @@ const petshop = {
         atualizarBanco()
     },
     buscarPet: (pet) => {
-        const found = pets.find(petAtual => petAtual.nome == pet.nome)
+        const found = pets.find(petAtual => petAtual.nome == pet)
         console.log(found)
     },
     filtrarEspeciePet: (especiePet) => {
