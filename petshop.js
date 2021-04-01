@@ -1,5 +1,8 @@
 const moment = require('moment');
 const fs = require('fs')
+const data = require('./data.json');
+
+let pets = data.pets
 
 const petshop = {
     novoCliente: (nome, tipo, idade, raca, peso, tutor, contato, vacinado, servicos) => {
@@ -19,6 +22,8 @@ const petshop = {
             if (err) throw err;
             console.log('Saved!');
         })
+
+        this.atualizarBanco
     },
     atualizarBanco: () => {
         fs.writeFile('data.json', JSON.stringify(data, null, 2), function (err) {
@@ -27,15 +32,19 @@ const petshop = {
         })
     },
     listarPets: () => {
+        let textoListaPets = "PETSHOP \n"
+     
         pets.forEach(pet => {
             const resultVacina = pet.vacinado ? "Vacinado" : "Não vacinado"
             let { nome, idade, especie, raca } = pet
-            console.log(`Nome: ${nome}, Idade: ${idade} anos, Espécie: ${especie}, Raça: ${raca}, Vacina: ${resultVacina}`)
+
+            textoListaPets += `Nome: ${nome}, Idade: ${idade} anos, Espécie: ${especie}, Raça: ${raca}, Vacina: ${resultVacina} \n`
     
-            pet.servicos.forEach(servico => console.log(`${servico.data} - ${servico.nome}`))
-    
-            console.log('')
+            // pet.servicos.forEach(servico => textoListaPets += `${servico.data} - ${servico.nome} \n`)
         })
+
+        
+        return textoListaPets
     },
     darBanhoPet: (pet) => {
         pet.servicos.push({ servico: 'Banho', date: moment().format('MMMM Do YYYY, h:mm:ss a') })

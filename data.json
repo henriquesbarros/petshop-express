@@ -1,6 +1,146 @@
 {
-    "pets": [
-      {
+  "pets": [
+    {
+      "nome": "Costelinha",
+      "tipo": "cachorro",
+      "idade": 5,
+      "raca": "Vira-lata",
+      "peso": 3,
+      "tutor": "Doug",
+      "contato": "(11) 98899-4545",
+      "vacinado": true,
+      "servicos": [
+        {
+          "nome": "banho",
+          "data": "29-03-2021"
+        },
+        {
+          "nome": "banho",
+          "data": "29-03-2021"
+        }
+      ]
+    },
+    {
+      "nome": "Snoopy",
+      "tipo": "cachorro",
+      "idade": 13,
+      "raca": "Beagle",
+      "peso": 5,
+      "tutor": "Charlie Brown",
+      "contato": "(11) 95656-4545",
+      "vacinado": true,
+      "servicos": [
+        {
+          "nome": "banho",
+          "data": "29-03-2021"
+        }
+      ]
+    },
+    {
+      "nome": "Satanas",
+      "tipo": "gato",
+      "idade": 5,
+      "raca": "Vira-lata",
+      "peso": 3,
+      "tutor": "Bruxa do 71",
+      "contato": "(11) 97171-7171",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Ada",
+      "tipo": "cachorro",
+      "idade": 1,
+      "raca": "Vira-lata",
+      "peso": 18,
+      "tutor": "Pedro",
+      "contato": "(11) 98899-4545",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Pedrita",
+      "tipo": "cachorro",
+      "idade": 10,
+      "raca": "Pastor Alemão",
+      "peso": 18,
+      "tutor": "João",
+      "contato": "(11) 98899-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Romarinho",
+      "tipo": "cachorro",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Bruno",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Bidu",
+      "tipo": "gato",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Doug",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Eva",
+      "tipo": "gato",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Hendy",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Tag",
+      "tipo": "gato",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Doug",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": {
+        "nome": "Scooby-Doo",
+        "especie": "Canis familiaris",
+        "idade": 7,
+        "raca": "Vira-lata",
+        "peso": 54,
+        "tutor": "Salsicha Rogers",
+        "contato": "(81) 99999-9999",
+        "vacinado": true,
+        "servicos": [
+          {
+            "nome": "Vacina",
+            "data": "March 29th 2021, 11:48:50 am"
+          },
+          {
+            "nome": "Banho",
+            "data": "March 29th 2021, 4:10:24 pm"
+          },
+          {
+            "nome": "Vacina",
+            "data": "March 30th 2021, 9:26:57 am"
+          }
+        ]
+      }
+    },
+    {
+      "nome": {
         "nome": "Volt",
         "especie": "Canis familiaris",
         "idade": 5,
@@ -27,70 +167,7 @@
             "data": "March 30th 2021, 9:26:57 am"
           }
         ]
-      },
-      {
-        "nome": "Scooby-Doo",
-        "especie": "Canis familiaris",
-        "idade": 7,
-        "raca": "Vira-lata",
-        "peso": 54,
-        "tutor": "Salsicha Rogers",
-        "contato": "(81) 99999-9999",
-        "vacinado": true,
-        "servicos": [
-          {
-            "nome": "Vacina",
-            "data": "March 29th 2021, 11:48:50 am"
-          },
-          {
-            "nome": "Banho",
-            "data": "March 29th 2021, 4:10:24 pm"
-          },
-          {
-            "nome": "Vacina",
-            "data": "March 30th 2021, 9:26:57 am"
-          }
-        ]
-      },
-      {
-        "nome": "Garfield",
-        "especie": "Felis silvestris catus",
-        "idade": 2,
-        "raca": "Gato Persa",
-        "peso": 5,
-        "tutor": "Jon Arbuckle",
-        "contato": "(81) 99999-9999",
-        "vacinado": true,
-        "servicos": [
-          {
-            "nome": "Vacina",
-            "data": "March 30th 2021, 9:26:57 am"
-          }
-        ]
-      },
-      {
-        "nome": "Chewbacca",
-        "especie": "Kaiju",
-        "idade": 190,
-        "raca": "Wookiee",
-        "peso": 112,
-        "tutor": "Han Solo",
-        "contato": "(81) 9999-9999",
-        "vacinado": true,
-        "servicos": [
-          {
-            "nome": "Vacina",
-            "data": "March 29th 2021, 11:48:50 am"
-          },
-          {
-            "nome": "Tosa",
-            "data": "March 29th 2021, 4:09:12 pm"
-          },
-          {
-            "nome": "Vacina",
-            "data": "March 30th 2021, 9:26:57 am"
-          }
-        ]
       }
-    ]
-  }
+    }
+  ]
+}
