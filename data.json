@@ -1,0 +1,96 @@
+{
+    "pets": [
+      {
+        "nome": "Volt",
+        "especie": "Canis familiaris",
+        "idade": 5,
+        "raca": "Golden retriever",
+        "peso": 30,
+        "tutor": "Henrique",
+        "contato": "(81) 99999-9999",
+        "vacinado": true,
+        "servicos": [
+          {
+            "nome": "Vacina",
+            "data": "March 29th 2021, 11:48:50 am"
+          },
+          {
+            "nome": "Tosa",
+            "data": "March 29th 2021, 4:09:31 pm"
+          },
+          {
+            "nome": "Corte de unhas",
+            "data": "March 29th 2021, 4:09:56 pm"
+          },
+          {
+            "nome": "Vacina",
+            "data": "March 30th 2021, 9:26:57 am"
+          }
+        ]
+      },
+      {
+        "nome": "Scooby-Doo",
+        "especie": "Canis familiaris",
+        "idade": 7,
+        "raca": "Vira-lata",
+        "peso": 54,
+        "tutor": "Salsicha Rogers",
+        "contato": "(81) 99999-9999",
+        "vacinado": true,
+        "servicos": [
+          {
+            "nome": "Vacina",
+            "data": "March 29th 2021, 11:48:50 am"
+          },
+          {
+            "nome": "Banho",
+            "data": "March 29th 2021, 4:10:24 pm"
+          },
+          {
+            "nome": "Vacina",
+            "data": "March 30th 2021, 9:26:57 am"
+          }
+        ]
+      },
+      {
+        "nome": "Garfield",
+        "especie": "Felis silvestris catus",
+        "idade": 2,
+        "raca": "Gato Persa",
+        "peso": 5,
+        "tutor": "Jon Arbuckle",
+        "contato": "(81) 99999-9999",
+        "vacinado": true,
+        "servicos": [
+          {
+            "nome": "Vacina",
+            "data": "March 30th 2021, 9:26:57 am"
+          }
+        ]
+      },
+      {
+        "nome": "Chewbacca",
+        "especie": "Kaiju",
+        "idade": 190,
+        "raca": "Wookiee",
+        "peso": 112,
+        "tutor": "Han Solo",
+        "contato": "(81) 9999-9999",
+        "vacinado": true,
+        "servicos": [
+          {
+            "nome": "Vacina",
+            "data": "March 29th 2021, 11:48:50 am"
+          },
+          {
+            "nome": "Tosa",
+            "data": "March 29th 2021, 4:09:12 pm"
+          },
+          {
+            "nome": "Vacina",
+            "data": "March 30th 2021, 9:26:57 am"
+          }
+        ]
+      }
+    ]
+  }
